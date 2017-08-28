@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+  <Resource name="jdbc/UST-ESC-DS" auth="Container"
+            type="javax.sql.DataSource" username="esc" password="ust4thewin"
+            driverClassName="com.mysql.jdbc.Driver" 
+            url="jdbc:mysql://localhost:3306/lostandfound-db"
+            maxActive="50" 
+            />
+
+</Context>
